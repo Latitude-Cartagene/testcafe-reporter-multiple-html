@@ -1,6 +1,6 @@
 {
-  "name": "testcafe-reporter-multiple-html",
-  "version": "1.0.0",
+  "name": "@latitude-cartagene/testcafe-reporter-multiple-html",
+  "version": "1.0.1",
   "description": "Testcafe HTML reporter plugin.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -20,7 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jvdieten/testcafe-reporter-multiple-html.git"
+    "url": "git+https://github.com/Latitude-Cartagene/testcafe-reporter-multiple-html"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Latitude-Cartagene"
   },
   "author": "Joost van Dieten",
   "keywords": [
@@ -33,9 +36,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jvdieten/testcafe-reporter-multiple-html/issues"
+    "url": "https://github.com/Latitude-Cartagene/testcafe-reporter-multiple-html/issues"
   },
-  "homepage": "https://github.com/jvdieten/testcafe-reporter-multiple-html#readme",
+  "homepage": "https://github.com/Latitude-Cartagene/testcafe-reporter-multiple-html#readme",
   "dependencies": {
     "@types/minimist": "1.2.0",
     "@types/node": "14.0.24",
